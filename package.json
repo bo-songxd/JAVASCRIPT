@@ -1,0 +1,36 @@
+{
+  "name": "treehollow",
+  "version": "1.0.0",
+  "description": "A place to share your diary",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "pretest": "npm run lint",
+    "lint": "eslint views/*.js app.js"
+  },
+  "author": "bo.song@durham.ac.uk",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.11.16"
+  },
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "jest": "^24.7.1",
+    "node-fetch": "^2.4.1",
+    "parser": "^0.1.4",
+    "process": "^0.11.10",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
